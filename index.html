@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C++ Resourses</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./section1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+  <body>
+   
+       <header>
+      
+      <div id="header">
+         <img src="./images/c++.png"  id="img"/>
+         <img src="./images/c++.png"  id="image"/>
+          <h1 >C++ Resourses</h1>
+         <nav >
+            
+            <a href="#section1" class="space "id="effect1">Introduction </a>
+            <a href="#section2" class="space" id="effect2">Data Types</a>
+            <a href="#section3" class="space" id="effect3">Arrays</a>
+        </nav>
+      </div>
+    </header>
+
+
+    <main>
+        
+      <section id="section1">
+        <div id="what">
+        <h2 class="one">What is C++ ?</h2>
+        <img src="./images/c++_programing-removebg-preview.png" id="img2" />
+        <p id="p1">
+          what is c++ give 50 line paragraph C++ is a powerful and widely-used
+          programming language that was developed by Bjarne Stroustrup at Bell
+          Labs in the early 1980s. It is an extension of the C programming
+          language, incorporating object-oriented programming (OOP) features and
+          other enhancements, which make it a versatile choice for various
+          applications. C++ supports both high-level and low-level programming,
+          allowing developers to write efficient and performant code. One of the
+          key features of C++ is its support for classes and objects, which
+          enables the creation of reusable code and abstraction. In addition to
+          OOP, C++ also supports procedural and generic programming paradigms,
+          providing developers with a wide range of tools to solve complex
+          problems.
+        </p>
+    </div>
+
+    <div id="feature">
+        <h2 class="one">What is the feature of C++ ?</h2>
+       
+       <div id="p2"> <p>
+            <ul>
+                <div >
+
+                <li id="oops" class="opp">
+                    <h3>Object-Oriented Programming (OOP):</h3>
+                    <p>C++ supports OOP principles such as encapsulation, inheritance, and polymorphism, allowing for modular, reusable, and maintainable code.
+
+                    </p>
+                </li>
+            </div>
+                <li id="stl">
+                    <h3>Standard Template Library (STL):</h3>
+                    <p>The STL provides a rich set of template classes and functions for common data structures (like vectors, lists, queues) and algorithms (like sorting and searching).</p>
+                </li>
+                <li id="llm">
+                    <h3>Low-Level Manipulation:</h3>
+                    <p>C++ allows direct manipulation of hardware and memory through pointers and references, offering fine-grained control over resource management.</p>
+                </li>
+                <li id="emm">
+                    <h3>Efficient Memory Management:</h3>
+                    <p>Features like manual memory allocation (using new and delete) enable efficient memory usage and performance optimization.
+
+                    </p>
+                </li>
+            </ul>
+        </p>
+</div>
+</div>
+<div id="syntax">
+    <h2>Basic Syntax Of C++</h2>
+    <pre id="code">
+        #include <iostream>  // Include the standard input-output stream library
+
+        int main() {
+            std::cout << "Hello, World!" << std::endl;  // Print "Hello, World!" to the console
+            return 0;  // Indicate that the program ended successfully
+        }
+        </pre>
+</div>
+      </section>
+
+      <!-- section 2 for basic (Data type) vedio c++ -->
+       <section id="section2">
+        <div id="section2">
+            <h2>DataTypes In C++</h2>
+            <p>C++ supports a variety of data types, allowing developers to store and manipulate different kinds of data. Here are the primary data types in C++:</p>
+        <ul>
+            <!-- Integer data type -->
+            <li><h3>Integer Types</h3>
+                <ol>
+                    <li>int: A basic integer type.</li>
+                    <li>short: A shorter integer type, typically half the size of int.</li>
+                    <li>long: A longer integer type, typically larger than int.</li>
+                    <li>long long: An extended integer type, larger than long.</li>
+                    <li>unsigned: Modifier to declare unsigned versions of the above integer types, allowing only non-negative values.</li>
+                </ol>
+                <h4>
+                    Code For Integer Data Types
+                </h4>
+                <pre>
+                    int age = 25;
+short shortVar = 10;
+long longVar = 1234567890;
+unsigned int uAge = 30;
+
+                </pre>
+
+
+            </li>
+            <!-- floating -->
+            
+            <li>
+                <h3>Floating-Point Types</h3>
+                <ol>
+                <li>float: A single-precision floating-point type</li>
+                <li>double: A double-precision floating-point type, providing more precision than float</li>
+                <li>long double: An extended precision floating-point type, providing even more precision than double</li>
+               </ol>
+                <h4>Code For Floating-Point Data Types</h4>
+                <pre>float height = 5.9f;
+                    double weight = 70.5;
+                    long double distance = 1234567.89;
+                    </pre>
+            </li>
+
+            <!-- char -->
+            <li>
+                <h3>Character Types</h3>
+                <ol>
+                    <li>char: A character type, typically representing a single byte.</li>
+                    <li>wchar_t: A wide character type for larger character sets (e.g., Unicode).</li>
+                    <li>char16_t: A 16-bit character type for UTF-16 encoding.</li>
+                    <li>char32_t: A 32-bit character type for UTF-32 encoding</li>
+                </ol>
+                <h4>Code For Character Data Types</h4>
+                <pre>char grade = 'A';
+                    wchar_t wChar = L'Ω';
+                    char16_t char16 = u'あ';
+                    char32_t char32 = U'𠀀';
+                    </pre>
+
+            </li>
+            <!-- Derived data types -->
+             <!-- array -->
+            <li><h3>Derived Data Types</h3></li>
+            <ul id="array">
+                <li><h3>Arrays</h3>
+                    <ol>
+                        <li>A collection of elements of the same type, stored in contiguous memory locations.</li>
+                    </ol>
+                    <h4>Code Part For Array</h4>
+                    <pre>int numbers[5] = {1, 2, 3, 4, 5};
+                    </pre>
+
+                </li>
+<!-- pointers -->
+                <li id="pointer">
+                    <h3>Pointers</h3>
+                    <ol>
+                        <li>Variables that store memory addresses of other variables.</li>
+                    </ol>
+                    <h4>Code Part For </h4>Pointers
+                    <pre>int a = 10;
+                        int* ptr = &a; // Pointer to an integer variable
+                        
+                    </pre>
+
+                </li>
+                <!-- references -->
+                <li id="references">
+                    <h3>References
+
+                    </h3>
+                    <ol>
+                        <li>Alternative names for existing variables.</li>
+                    </ol>
+                    <h4>Code Part For References </h4>
+                    
+                    <pre>int b = 20;
+                        int& ref = b; // Reference to an integer variable
+                        
+                    </pre>
+
+                </li>
+                <!-- function -->
+                 <li id="functio">
+                    <h3>Function</h3>
+                    <ol>
+                        <li>Blocks of code that perform specific tasks and can return values.</li>
+                    </ol>
+                    <h4>Code For Function</h4>
+                    <pre>int add(int x, int y) {
+                        return x + y;
+                    }
+                    </pre>
+                 </li>
+
+        </ul>
+        <!-- user define data types -->
+            <li id="user">
+                <h3>User-Defined Data Types
+                </h3>
+                <!-- types -->
+                 <ol>
+                    <!-- structure -->
+                    <li>
+                        <h3>Structures (struct)</h3>
+                        <ul>
+                            <li>User-defined types that group variables of different types.</li>
+                        <h4>Code For Structures</h4>
+                        <pre>struct Person {
+                            std::string name;
+                            int age;
+                        };
+                        </pre>
+                        </ul>
+                    </li>
+                    <!-- class -->
+                    <li>
+                        <h3>Classes (class)</h3>
+                        <ol>
+                            <li>User-defined types with data members and member functions, supporting encapsulation and other OOP principles.</li>
+                        </ol>
+                        <h4>Code Part For Classes</h4>
+                        <pre>class Car {
+                            public:
+                                std::string model;
+                                int year;
+                                void display() {
+                                    std::cout << "Model: " << model << ", Year: " << year << std::endl;
+                                }
+                            };
+                            </pre>
+                    </li>
+                    <!-- Enumerations -->
+                    <li>
+                        <h3>Enumerations (enum)</h3>
+                        <ol><li>
+                            User-defined types representing a collection of named integer constants.
+                        </li></ul>
+                        <h4>Code Part For Enumerations</h4>
+                        <pre>enum Color {
+                            RED,
+                            GREEN,
+                            BLUE
+                        };
+                        </pre>
+
+                    </li>
+                    
+                 </ol>
+            </li>
+        </ul>
+        
+        </div>
+       </section>
+
+       <!-- section 3 for array -->
+        <section id="section3">
+            <h2>Arrays</h2>
+            <p>Arrays in C++ are collections of elements of the same type, stored in contiguous memory locations. They are useful for storing multiple values in a single variable, making it easier to manage and process data. Here's a detailed overview of arrays in C++</p>
+
+        <h3>Declaring and Initializing Arrays</h3>
+        <ol>
+            <li>
+                <h3>Single-Dimensional Arrays</h3>
+                <ol>
+                    <li>Declaration: Specify the type of elements and the size of the array.</li>
+                    <li>Initialization: Provide initial values for the elements.</li>
+                </ol> 
+                <h4>Code Part For Single-Dimensional Arrays</h4>
+                <pre>int numbers[5];  // Declaration of an array of 5 integers
+                    int values[5] = {1, 2, 3, 4, 5};  // Declaration and initialization
+                    </pre>
+
+                     </li>
+<!-- Accessing Array Elements -->
+
+            <li>
+                <h3>Accessing Array Elements</h3>
+                <ol>
+                    <li>Use the index operator [] to access elements by their position.</li>
+                </ol>
+                <h4>Code Part For Accessing Array Elements </h4>
+                <pre>numbers[0] = 10;  // Assign value to the first element
+                    int firstValue = values[0];  // Access the first element
+                    </pre>
+            </li>
+            <!-- Multidimensional Arrays -->
+            <li>
+                <h3>Multidimensional Arrays</h3>
+                <ol>
+                    <li>Arrays with more than one dimension, like matrices.</li>
+                </ol>
+                <h4>Code Part For Multidimensional Arrays</h4>
+                <pre>int matrix[3][3] = {  // Declaration and initialization of a 3x3 array
+                    {1, 2, 3},
+                    {4, 5, 6},
+                    {7, 8, 9}
+                };
+                </pre>
+            </li>
+            
+        </ol>
+        </section>
+
+    </main>
+    <footer></footer>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+#img2 {
+  height: 40vh;
+  width: auto;
+  float: right;
+}
+
+
+#section1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  /* background-color: beige; */
+  padding: 15vh 10px 10px 10px;
+  border-radius: 10px;
+  
+.one {
+  text-align: center;
+  color: blueviolet;
+  text-decoration: underline;
+}
+/* #what:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+  overflow: hidden;
+} */
+#img2{
+  transform: scale(0.8);
+  transition: transform 0.1s;
+  overflow: hidden;
+}
+#p1 {
+  color: rgb(220, 114, 76);
+  background-color:  rgb(243, 204, 131);
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+#p1:hover {
+  font-family: "Oswald", serif;
+  color: #bf40bf;
+  transform: scale(0.99);
+  transition: transform 0.1s;
+  overflow: hidden;
+}
+#feature{
+  margin-top: 50px;
+}
+#p2{
+  background-color: rgb(243, 204, 131);
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+
+}
+h3{
+  color: rgb(255, 102, 0);
+}
+#oops:hover
+{
+  font-family: "Oswald", serif;
+  color: #bf40bf;
+  transform: scale(0.95);
+  transition: transform 0.3s;
+  
+}
